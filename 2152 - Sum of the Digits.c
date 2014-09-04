@@ -25,6 +25,6 @@ int main()
 		printf("%d\n", sum);
 		memset(num, '\0', sizeof(num));
 	}
-
+	
 	return 0;
 }
