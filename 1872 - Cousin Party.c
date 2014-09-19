@@ -11,7 +11,8 @@ long long int **MatrixPower(long long int **fib, long long int **mat)
 	for (i=0; i<2; i++) {
 		aux[i] = (long long int *)malloc(sizeof(long long int) * 2);
 	}
-    aux[0][0]=0;
+    	
+   	aux[0][0]=0;
 	aux[0][1]=0;
 	aux[1][0]=0;
 	aux[1][1]=0;
